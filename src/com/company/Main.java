@@ -8,6 +8,7 @@ public class Main {
         Savings sav1 = new Savings("Rob Stark", "47348927",1200);
 
         sav1.showInfo();
+        System.out.println("****************");
         check1.showInfo();
     }
 }
