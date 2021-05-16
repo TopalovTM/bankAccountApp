@@ -5,8 +5,8 @@ import jdk.swing.interop.SwingInterOpUtils;
 public class Checking extends Account{
 
     //list properties specific to the checking account
-    int debitCardNumber;
-    int debitCardPin;
+    private int debitCardNumber;
+    private int debitCardPin;
     //constructor to initialize checking account properties
     public Checking(String name, String sSN, double initDeposit){
         super(name, sSN,initDeposit);

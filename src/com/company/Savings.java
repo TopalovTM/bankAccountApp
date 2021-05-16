@@ -3,8 +3,8 @@ package com.company;
 public class Savings extends Account{
 
     //list properties specific to the savings account
-    int safetyDepositBoxId;
-    int safetyDepositBoxKey;
+    private int safetyDepositBoxId;
+    private int safetyDepositBoxKey;
 
     //constructor to initialize settings for the savings properties
     public Savings(String name, String sSN, double initDeposit){
